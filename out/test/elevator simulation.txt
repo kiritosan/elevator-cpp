@@ -1,0 +1,63 @@
+            ,----------------------------.
+            |elevatorController          |
+            |----------------------------|
+            |-int currentFloor           |
+            |-int destinationFloor       |
+            |-int direction              |
+            |-int doorStatus             |
+            |-int doorTimer              |
+            |-int doorTimerMax           |
+            |-int doorTimerMin           |
+            |-int doorTimerStep          |
+            |-int doorTimerStepMax       |
+            |-int doorTimerStepMin       |
+            |-int floorNumber            |
+            |-int floorButton            |
+            |-int floorButtonStatus      |
+            |-int floorButtonTimer       |
+            |-int floorButtonTimerMax    |
+            |-int floorButtonTimerMin    |
+            |-int floorButtonTimerStep   |
+            |-int floorButtonTimerStepMax|
+            |-int floorButtonTimerStepMin|
+            `----------------------------'
+                                          
+                                          
+,---------------------.                   
+|elevator             |                   
+|---------------------|                   
+|-int currentFloor    |                   
+|-int destinationFloor|                   
+|-int direction       |                   
+|-int doorStatus      |                   
+|-int doorTimer       |                   
+|-int doorTimerMax    |                   
+|-int doorTimerMin    |                   
+|-int doorTimerStep   |                   
+|-int doorTimerStepMax|                   
+|-int doorTimerStepMin|                   
+|-int capacity        |                   
+`---------------------'                   
+                                          
+     ,----------------------------.       
+     |floor                       |       
+     |----------------------------|       
+     |-int floorNumber            |       
+     |-int floorButton            |       
+     |-int floorButtonStatus      |       
+     |-int floorButtonTimer       |       
+     |-int floorButtonTimerMax    |       
+     |-int floorButtonTimerMin    |       
+     |-int floorButtonTimerStep   |       
+     |-int floorButtonTimerStepMax|       
+     |-int floorButtonTimerStepMin|       
+     `----------------------------'       
+                    |                     
+                                          
+         ,---------------------.          
+         |person               |          
+         |---------------------|          
+         |-int currentFloor    |          
+         |-int destinationFloor|          
+         |-int direction       |          
+         `---------------------'          
